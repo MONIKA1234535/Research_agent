@@ -2,3 +2,4 @@ groq
 python-dotenv
 scikit-learn
 numpy
+pytest
