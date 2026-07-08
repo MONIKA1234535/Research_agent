@@ -24,7 +24,7 @@ Install dependencies:
 
 Get a free API key at console.groq.com
 Create a .env file in the project root:
-   GROR_API_KEY=your_key_here
+   GROQ_API_KEY=your_key_here
 
 Run
    python agent.py
