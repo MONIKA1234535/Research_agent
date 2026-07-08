@@ -1,0 +1,40 @@
+Research Summary: Machine Learning Approaches to Epileptic Seizure Detection Using EEG Signals
+
+Background
+Epilepsy affects an estimated 50 million people worldwide, and timely seizure
+detection from EEG recordings remains a critical challenge in clinical neurology.
+Manual review of EEG data by specialists is time-consuming and prone to human error,
+motivating automated detection approaches.
+
+Methodology
+This study evaluated a hybrid approach combining deep learning and ensemble methods
+on EEG signal data. A convolutional and recurrent neural network architecture was
+used to extract temporal and spectral features from raw EEG channels, while a
+gradient-boosted ensemble model (XGBoost) was trained on handcrafted statistical
+features including signal variance, spectral entropy, and peak frequency.
+
+Dataset
+The dataset consisted of EEG recordings sampled at 256Hz from multiple electrode
+channels, labeled by clinicians into seizure and non-seizure segments. Data was
+split into training, validation, and test sets with careful attention to avoiding
+patient-level data leakage between splits.
+
+Results
+The combined neural network and ensemble approach achieved 93.4% classification
+accuracy on the held-out test set, with a sensitivity of 91.2% and specificity of
+94.8%. The neural network alone achieved 89.1% accuracy, while the ensemble model
+alone achieved 87.6%, indicating the hybrid approach outperformed either method
+individually.
+
+Discussion
+False negatives in seizure detection carry higher clinical risk than false
+positives, since a missed seizure delays intervention. The study's sensitivity of
+91.2% suggests the model still misses roughly 1 in 11 seizure events, indicating
+room for improvement before clinical deployment. Feature importance analysis showed
+spectral entropy was the single most predictive handcrafted feature.
+
+Limitations and Future Work
+The dataset was drawn from a limited number of patients, raising questions about
+generalization to broader populations. Future work should incorporate multi-center
+data and explore real-time inference constraints for wearable EEG devices, which
+have stricter compute and power budgets than offline analysis.

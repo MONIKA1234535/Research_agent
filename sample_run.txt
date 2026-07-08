@@ -1,0 +1,92 @@
+Enter a question (or 'quit' to exit): What AI tools are employees approved to use according to the policy?
+
+Answer:
+According to the policy, employees are approved to use AI assistants including Claude, ChatGPT, and Groq-hosted open models [Source 1].
+
+Sources used:
+  [Source 1] company_policy.txt (score: 0.327)
+  [Source 2] company_policy.txt (score: 0.284)
+  [Source 3] company_policy.txt (score: 0.197)
+
+Enter a question (or 'quit' to exit): What is the monthly token budget per employee?
+
+Answer:
+The monthly token budget per employee is 2 million tokens [Source 1].
+
+Sources used:
+  [Source 1] company_policy.txt (score: 0.327)
+  [Source 2] company_policy.txt (score: 0.092)
+  [Source 3] product_spec.txt (score: 0.085)
+
+Enter a question (or 'quit' to exit): What languages does NovaAssist support at launch?
+
+Answer:
+NovaAssist supports English and Hindi at launch, with additional languages planned for future versions [Source 3].
+
+Sources used:
+  [Source 1] product_spec.txt (score: 0.158)
+  [Source 2] product_spec.txt (score: 0.111)
+  [Source 3] product_spec.txt (score: 0.077)
+
+Enter a question (or 'quit' to exit): What was the sensitivity of the hybrid EEG seizure detection model?
+
+Answer:
+The sensitivity of the hybrid EEG seizure detection model was 91.2% [Source 1] and [Source 3]. This is confirmed in both the discussion section [Source 1] and the results section [Source 3].
+
+Sources used:
+  [Source 1] research_paper.txt (score: 0.281)
+  [Source 2] research_paper.txt (score: 0.221)
+  [Source 3] research_paper.txt (score: 0.214)
+
+Enter a question (or 'quit' to exit): Why did the combined neural network and ensemble approach outperform either method alone?
+
+Answer:
+The provided sources do not contain enough information to answer this question.
+
+Sources used:
+  [Source 1] research_paper.txt (score: 0.469)
+  [Source 2] research_paper.txt (score: 0.185)
+  [Source 3] product_spec.txt (score: 0.054)
+
+Enter a question (or 'quit' to exit): What percentage of companies used AI screening tools according to the 2026 survey?
+
+Answer:
+According to the survey, roughly 62% of respondents reported using some form of AI screening in their hiring pipeline [Source 1].
+
+Sources used:
+  [Source 1] ai_hiring.txt (score: 0.279)
+  [Source 2] ai_hiring.txt (score: 0.270)
+  [Source 3] ai_hiring.txt (score: 0.148)
+
+Enter a question (or 'quit' to exit): What is NovaAssist's pricing for the Enterprise tier exact dollar amount?
+
+Answer:
+The provided sources do not contain enough information to answer this question.
+
+Sources used:
+  [Source 1] product_spec.txt (score: 0.249)
+  [Source 2] product_spec.txt (score: 0.099)
+  [Source 3] product_spec.txt (score: 0.095)
+
+Enter a question (or 'quit' to exit): Who is the current CEO of NovaAssist?
+
+Answer:
+The provided sources do not contain enough information to answer this question.
+
+Sources used:
+  [Source 1] product_spec.txt (score: 0.128)
+  [Source 2] company_policy.txt (score: 0.124)
+  [Source 3] product_spec.txt (score: 0.116)
+
+Enter a question (or 'quit' to exit): exit
+
+Answer:
+The provided sources do not contain enough information to answer this question.
+
+Sources used:
+  [Source 1] research_paper.txt (score: 0.000)
+  [Source 2] company_policy.txt (score: 0.000)
+  [Source 3] ai_hiring.txt (score: 0.000)
+
+Enter a question (or 'quit' to exit): quit
+PS C:\Users\user\research_agent>

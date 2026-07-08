@@ -1,0 +1,41 @@
+Product Specification: NovaAssist Voice Companion, v2.1
+
+Overview
+NovaAssist is a voice-enabled AI assistant for small business owners, designed to
+handle appointment scheduling, customer FAQs, and basic order tracking through
+natural spoken conversation.
+
+Core Features
+The assistant supports speech-to-text transcription with under 400ms latency using
+a streaming ASR pipeline. Responses are generated using a fine-tuned language model
+and converted back to speech using a low-latency TTS engine. The system supports
+English and Hindi at launch, with Kannada and Tamil planned for v2.2.
+
+Architecture
+NovaAssist runs on a three-stage pipeline: audio capture and transcription, intent
+classification and response generation, and speech synthesis. Each stage is
+independently scalable and communicates over a lightweight message queue. Average
+end-to-end response time in testing was 1.8 seconds.
+
+Hardware Requirements
+The assistant is designed to run on a standard business tablet or smartphone with
+at least 2GB of available RAM. No specialized hardware is required for the
+customer-facing device; heavier processing occurs on backend servers.
+
+Pricing Tiers
+The Starter tier costs $29/month and supports up to 500 conversations. The Growth
+tier costs $79/month for up to 3000 conversations and adds calendar integration.
+The Enterprise tier is custom-priced and includes dedicated support and on-premise
+deployment options.
+
+Known Limitations
+The current version struggles with heavy background noise environments, showing a
+12% increase in transcription errors in noisy settings during internal testing.
+Multi-speaker conversations are not yet supported; the assistant assumes a single
+speaker per session. These issues are targeted for resolution in v2.2, expected in
+Q1 2027.
+
+Support
+Enterprise customers receive a dedicated account manager and 24/7 technical support.
+Starter and Growth tier customers receive email support with a 48-hour response
+target during business days.

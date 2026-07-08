@@ -1,0 +1,34 @@
+News Report: AI Screening Tools Reshape Entry-Level Hiring in 2026
+
+A growing share of companies are adopting AI-based resume screening and interview
+tools for entry-level technical hiring, according to a survey of 400 mid-sized
+tech firms conducted earlier this year. Roughly 62% of respondents reported using
+some form of AI screening in their hiring pipeline, up from 38% two years earlier.
+
+Recruiters cited faster turnaround times as the primary driver, with average
+time-to-first-response for candidates dropping from nine days to under three days
+at companies using automated screening. However, several hiring managers expressed
+concern that keyword-matching systems undervalue candidates from non-traditional
+backgrounds whose resumes don't closely mirror standard job description language.
+
+Candidate Experience
+A separate survey of recent graduates found mixed reactions to AI-conducted
+interviews. Some candidates appreciated the reduced scheduling friction, while
+others reported feeling that AI interviewers failed to probe follow-up questions
+in the same way a human interviewer would, particularly around project depth and
+genuine understanding of submitted work.
+
+Industry Response
+Several companies have begun requiring candidates to explain their submitted code
+or projects live, specifically to verify hands-on understanding rather than
+AI-assisted output alone. This trend has been particularly notable in AI and
+machine learning roles, where companies want assurance that candidates can reason
+about model behavior rather than simply having used an AI coding assistant to
+generate a working demo.
+
+Outlook
+Analysts expect AI screening adoption to continue rising through 2027, alongside
+growing emphasis on live technical verification steps designed to confirm genuine
+candidate skill. Several firms interviewed said they plan to combine automated
+screening with mandatory live walkthroughs of any AI-assisted project work before
+extending offers.
